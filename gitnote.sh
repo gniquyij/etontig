@@ -9,11 +9,10 @@ do
   esac
 done
 
-export cmd=`git pull; git add .; git commit -m 'update'; git push origin master;`
 if [[ ${option} == 'commit' ]]; then
-  export cmd = `git pull; git add .; git commit -m 'update';`
+  git pull; git add .; git commit -m 'update';
 elif [[ ${option} == 'push' ]]; then
-  export cmd = `git push origin master;`
+  git push origin master;
+else
+  git pull; git add .; git commit -m 'update'; git push origin master;
 fi
-
-echo $cmd

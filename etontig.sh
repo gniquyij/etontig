@@ -12,7 +12,7 @@ if [ $branch_check == 1 ]; then
 fi
 
 if [[ $1 == 'c' ]]; then
-  git checkout $branch; git pull; git add . ; git commit -m 'update';
+  git checkout $branch; git pull; git add .; git commit -m 'update';
 elif [[ $1 == 'p' ]]; then
   git push origin $branch;
 else

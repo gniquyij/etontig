@@ -1,12 +1,11 @@
 # etontig
 
 With etontig, you could:
-- `etontig c` to commit the code
-- `etontig p` to push the code 
+- `etontig c` to commit change(s) to the current branch. If a specific branch, `etontig c <branch-name>`
+- `etontig p` to push the current branch to remote. If a specific branch, `etontig c <branch-name>`
 - `etontig cp` to do both commit and push
 
-etontig is a script packing several Git commands for a more efficient commit & push. 
-I use Git to version-control my [notes](https://github.com/vjyq/vjyq.github.io). Since hitting the same keys in most cases, I wrote etontig.  
+etontig is a script packing several Git commands for a more efficient commit & push. See: https://vjyq.github.io/etontig/
 
 ## Setup
 ```

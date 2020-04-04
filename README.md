@@ -12,7 +12,7 @@ etontig is a script packing several Git commands for a more efficient commit & p
 $ git clone https://github.com/vjyq/etontig.git 
 ```
 
-Then add the following scripts to your `./bash_profile`:
+Then add the following scripts to your `.bash_profile`:
 ```
 # etontig
 func () { bash /<PATH-TO-etontig>/etontig/etontig.sh $1 $2; }

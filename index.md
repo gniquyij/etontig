@@ -7,7 +7,7 @@ So how could I handle or improve this low ROI situation when using Git that vers
 
 I did 2 things:
 1. create a [script](https://github.com/vjyq/etontig/blob/master/etontig.sh) to tie git commands up
-2. alias the script. Here's my `./bash_profile`:
+2. alias the script. Here's my `.bash_profile`:
 ```
 # etontig
 func () { bash /Users/yuqing.ji/etontig/etontig.sh $1 $2; }

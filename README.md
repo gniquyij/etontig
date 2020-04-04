@@ -6,7 +6,7 @@ With etontig, you could:
 - `etontig cp` to do both commit and push
 
 etontig is a script packing several Git commands for a more efficient commit & push. 
-I use it when writing notes - I've been using Git to version-control my notes and hitting the same keys in most cases - that's why I wrote etontig.  
+I use it when writing [notes](https://github.com/vjyq/vjyq.github.io) - I've been using Git to version-control my notes and hitting the same keys in most cases - that's why I wrote etontig.  
 
 ## Setup
 ```

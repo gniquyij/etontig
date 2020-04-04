@@ -11,10 +11,11 @@ if [ $branch_check == 1 ]; then
   exit 1
 fi
 
+git checkout $branch; git pull;
 if [[ $1 == 'c' ]]; then
-  git checkout $branch; git pull; git add .; git commit -m 'update';
+  git add .; git commit -m 'update';
 elif [[ $1 == 'p' ]]; then
   git push origin $branch;
 else
-  git pull; git add .; git commit -m 'update'; git push origin $branch;
+  git add .; git commit -m 'update'; git push origin $branch;
 fi
